@@ -3,7 +3,7 @@ import YouTube from "react-youtube";
 const MovieClip = () => {
   const options = {
     height: "auto",
-    width: "550px",
+    width: "auto",
     playerVars: {
       autoplay: 1,
       controls: 1,
@@ -20,6 +20,7 @@ const MovieClip = () => {
       options={options}
       onReady={_onReady}
       id="video"
+      className="flex container"
     />
   );
 };
