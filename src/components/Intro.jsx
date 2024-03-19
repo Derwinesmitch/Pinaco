@@ -3,8 +3,8 @@ import MovieClip from "./Video";
 const Intro = () => {
   return (
     <div className="flex">
-      <div className="flex">
-        <div className="w-1/2 flex flex-col justify-center">
+      <div className="flex ">
+        <div className="w-1/2 flex flex-col justify-center p-4">
           <div className="mb-4">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -19,7 +19,7 @@ const Intro = () => {
             sondern als Platzhalter im Layout verwendet wird,{" "}
           </div>
         </div>
-        <div className="w-1/2 flex mt-10 object-cover">
+        <div className="w-1/2 flex mt-10 p-4">
           <MovieClip />
         </div>
       </div>
