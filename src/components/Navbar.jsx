@@ -9,10 +9,14 @@ const Navbar = () => {
           ></img>
         </div>
         <div className="flex m-1">
+          <div className="m-1">Home</div>
           <div className="m-1">Clases</div>
-          <div className="m-1">Talleres</div>
-          <div className="m-1">Info</div>
-          <div className="m-1">Cosas</div>
+          <div className="m-1">Cumpleaños</div>
+          <div className="m-1">Eventos</div>
+          <div className="m-1">Club de Arte</div>
+          <div className="m-1">Kits</div>
+          <div className="m-1">Mini Colonia</div>
+          <div className="m-1">Clases Moviles</div>
         </div>
       </div>
     </div>
