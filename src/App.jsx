@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Links from "./components/Links";
 import Navbar from "./components/Navbar";
+import Quotes from "./components/Quotes";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <div className="w-4/5 ">
           <Intro />
           <Links />
+          <Quotes />
         </div>
       </div>
     </div>
