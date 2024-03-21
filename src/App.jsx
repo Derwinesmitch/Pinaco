@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About";
 import Carousel from "./components/Carousel";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
@@ -18,6 +19,7 @@ function App() {
           <Intro />
           <Links />
           <Quotes />
+          <About />
         </div>
       </div>
     </div>
