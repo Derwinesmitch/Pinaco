@@ -1,27 +1,27 @@
-import newImage from "../assets/clases.svg";
+import Circle from "./UI/Circle";
 const Links = () => {
   return (
-    <div className="flex">
-      <div className="p-2">
-        <img src={newImage}></img>
+    <div className="flex justify-between my-5">
+      <div className="">
+        <Circle text="Clases" />
       </div>
-      <div className="p-2">
-        <img src={newImage}></img>
+      <div className="">
+        <Circle text="Cumpleaños" />
       </div>
-      <div className="p-2">
-        <img src={newImage}></img>
+      <div className="">
+        <Circle text="Eventos" />
       </div>
-      <div className="p-2">
-        <img src={newImage}></img>
+      <div className="">
+        <Circle text="Club de Arte" />
       </div>
-      <div className="p-2">
-        <img src={newImage}></img>
+      <div className="">
+        <Circle text="Kits" />
       </div>
-      <div className="p-2">
-        <img src={newImage}></img>
+      <div className="">
+        <Circle text="Mini Colonia" />
       </div>
-      <div className="p-2">
-        <img src={newImage}></img>
+      <div className="">
+        <Circle text="Clases Moviles" />
       </div>
     </div>
   );
