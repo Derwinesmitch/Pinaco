@@ -6,6 +6,7 @@ import Intro from "./components/Intro";
 import Links from "./components/Links";
 import Navbar from "./components/Navbar";
 import Quotes from "./components/Quotes";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <About />
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }
