@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="">
@@ -9,14 +11,30 @@ const Navbar = () => {
           ></img>
         </div>
         <div className="flex m-1">
-          <div className="m-1">Home</div>
-          <div className="m-1">Clases</div>
-          <div className="m-1">Cumpleaños</div>
-          <div className="m-1">Eventos</div>
-          <div className="m-1">Club de Arte</div>
-          <div className="m-1">Kits</div>
-          <div className="m-1">Mini Colonia</div>
-          <div className="m-1">Clases Moviles</div>
+          <Link to="/" className="m-1">
+            Home
+          </Link>
+          <Link to="/clases" className="m-1">
+            Clases
+          </Link>
+          <Link to="/cumpleanos" className="m-1">
+            Cumpleaños
+          </Link>
+          <Link to="/eventos" className="m-1">
+            Eventos
+          </Link>
+          <Link to="/club-de-arte" className="m-1">
+            Club de Arte
+          </Link>
+          <Link to="/kits" className="m-1">
+            Kits
+          </Link>
+          <Link to="/mini-colonia" className="m-1">
+            Mini Colonia
+          </Link>
+          <Link to="/clases-moviles" className="m-1">
+            Clases Moviles
+          </Link>
         </div>
       </div>
     </div>
