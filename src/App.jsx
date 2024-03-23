@@ -1,28 +1,16 @@
 import "./App.css";
-import About from "./components/About";
-import Carousel from "./components/Carousel";
-import Header from "./components/Header";
-import Intro from "./components/Intro";
-import Links from "./components/Links";
-import Navbar from "./components/Navbar";
-import Quotes from "./components/Quotes";
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Clases from "./components/Clases";
 function App() {
   return (
-    <div className="main">
-      <Header />
-      <Navbar />
-
-      <Carousel />
-      <div className="w-full flex justify-center">
-        <div className="w-4/5 ">
-          <Intro />
-          <Links />
-          <Quotes />
-          <About />
-        </div>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="" element={<Home />}></Route>
+        <Route path="clases" element={<Clases />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
