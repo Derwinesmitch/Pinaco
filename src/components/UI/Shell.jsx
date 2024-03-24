@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import Header from "../Header";
 import Navbar from "../Navbar";
 
@@ -7,6 +8,7 @@ const Shell = ({ children }) => {
       <Header />
       <Navbar />
       {children}
+      <Footer />
     </div>
   );
 };
