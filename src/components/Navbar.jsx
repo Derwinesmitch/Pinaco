@@ -23,16 +23,16 @@ const Navbar = () => {
           <Link to="/eventos" className="m-1">
             Eventos
           </Link>
-          <Link to="/club-de-arte" className="m-1">
+          <Link to="/club" className="m-1">
             Club de Arte
           </Link>
           <Link to="/kits" className="m-1">
             Kits
           </Link>
-          <Link to="/mini-colonia" className="m-1">
+          <Link to="/colonia" className="m-1">
             Mini Colonia
           </Link>
-          <Link to="/clases-moviles" className="m-1">
+          <Link to="/moviles" className="m-1">
             Clases Moviles
           </Link>
         </div>
