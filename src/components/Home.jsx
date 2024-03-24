@@ -7,11 +7,10 @@ import Shell from "./UI/Shell";
 
 const Home = () => {
   return (
-    // <div className="main">
     <Shell>
       <Carousel />
       <div className="w-full flex justify-center">
-        <div className="w-4/5 ">
+        <div className="w-4/5">
           <Intro />
           <Links />
           <Quotes />
@@ -19,7 +18,6 @@ const Home = () => {
         </div>
       </div>
     </Shell>
-    // </div>
   );
 };
 
