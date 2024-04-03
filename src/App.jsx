@@ -1,31 +1,29 @@
 import "./App.css";
-import About from "./components/About";
-import Carousel from "./components/Carousel";
-import Header from "./components/Header";
-import Intro from "./components/Intro";
-import Links from "./components/Links";
-import Navbar from "./components/Navbar";
-import Quotes from "./components/Quotes";
-import Footer from "./components/Footer";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Clases from "./components/Clases";
+import Cumpleanos from "./components/Cumpleanos";
+import Eventos from "./components/Eventos";
+import Club from "./components/Club";
+import Kits from "./components/Kits";
+import Colonia from "./components/Colonia";
+import Moviles from "./components/Moviles";
 
 function App() {
   return (
-    <div className="main">
-      <Header />
-      <Navbar />
-
-      <Carousel />
-      <div className="w-full flex justify-center">
-        <div className="w-4/5 ">
-          <Intro />
-          <Links />
-          <Quotes />
-          <About />
-        </div>
-      </div>
-
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="" element={<Home />}></Route>
+        <Route path="clases" element={<Clases />}></Route>
+        <Route path="cumpleanos" element={<Cumpleanos />}></Route>
+        <Route path="eventos" element={<Eventos />}></Route>
+        <Route path="club" element={<Club />}></Route>
+        <Route path="kits" element={<Kits />}></Route>
+        <Route path="colonia" element={<Colonia />}></Route>
+        <Route path="moviles" element={<Moviles />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,18 +1,17 @@
-import React from "react";
-
 export default function Footer(props) {
   const currentYear = new Date().getFullYear();
 
   return (
+
     <div class="bg-red-300 w-4/5 flex w-full justify-center">
       <footer className="grid grid-cols-3 bg-red-300 p-4 text-white text-center">
         <div className="flex justify-start">
           📍 Nuestra Señora del Carmen 623, Asunción, Paraguay
         </div>
 
-        <div>
-          <p>Pinaco © {currentYear}</p>
-        </div>
+          <div>
+            <p>Pinaco © {currentYear}</p>
+          </div>
 
         <div className="flex justify-end">
           <div className="flex justify-around w-2/4">
@@ -28,6 +27,7 @@ export default function Footer(props) {
                 </svg>
               </span>
             </a>
+
             <a
               href="https://www.instagram.com/pinaco.py/?hl=es"
               target="_blank"
@@ -39,6 +39,7 @@ export default function Footer(props) {
                 </svg>
               </span>
             </a>
+
             <a
               href="https://www.google.com/search?q=Pinaco+-+Art+School+in+Asunci%C3%B3n&sca_esv=824cd7f292a9a46d&rlz=1C5CHFA_enNL1052NL1052&sxsrf=ACQVn08u33kNW32MZvQszHISvR6Q20PMiQ%3A1711553310441&ei=HjsEZtquGrmF9u8Pt4eO2Ag&ved=0ahUKEwjatdT44JSFAxW5gv0HHbeDA4sQ4dUDCBA&uact=5&oq=Pinaco+-+Art+School+in+Asunci%C3%B3n&gs_lp=Egxnd3Mtd2l6LXNlcnAiIFBpbmFjbyAtIEFydCBTY2hvb2wgaW4gQXN1bmNpw7NuMgUQIRigATIFECEYoAFI6C9Qki5Yki5wAngAkAEAmAHNAaABzQGqAQMyLTG4AQPIAQD4AQH4AQKYAgOgAtwBqAIKwgIHECMY6gIYJ5gDBZIHBTIuMC4xoAe0Ag&sclient=gws-wiz-serp"
               target="_blank"
