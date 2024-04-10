@@ -2,20 +2,19 @@ export default function Footer(props) {
   const currentYear = new Date().getFullYear();
 
   return (
-
     <div class="bg-red-300 w-4/5 flex w-full justify-center">
       <footer className="grid grid-cols-3 bg-red-300 p-4 text-white text-center">
         <div className="flex justify-start">
           📍 Nuestra Señora del Carmen 623, Asunción, Paraguay
         </div>
 
-          <div>
-            <p>Pinaco © {currentYear}</p>
-          </div>
+        <div>
+          <p>Pinaco © {currentYear}</p>
+        </div>
 
         <div className="flex justify-end">
           <div className="flex justify-around w-2/4">
-            <h3>Contact us</h3>
+            <h3>Ponte en Contacto!</h3>
             <a
               href="https://www.facebook.com/Pinaco.Workshop/"
               target="_blank"
